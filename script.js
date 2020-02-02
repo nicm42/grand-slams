@@ -3,8 +3,8 @@ function grandslams(){
 	//Set up array of Grand Slam dates - one for the start date and one for the end date
 	//var startDates = ['2001','2405','2906','3108'];
 	//var endDates = ['0202','0706','1207','1309'];
-	var startDates = ['2001','2405','2906','0101'];  //temporarily pretending US Open has finished
-	var endDates = ['0202','0706','1207','1301'];   //to test it
+	var startDates = ['2001','0602','2906','0101'];  //temporarily pretending US Open has finished
+	var endDates = ['0202','0706','1207','1301'];   //to test it (and RG is soon)
 	//Get today's date
 	var today = new Date();
 	//var todayDay = today.getDate();
@@ -25,16 +25,24 @@ function grandslams(){
 		slamEnd.setDate(slamEndDay);
 		slamEnd.setMonth(slamEndMonth - 1);
 		//Now check if this slam has happened, will happen or is currently happening
+		//And add relevant text into #result
 		var past = false; var present = false; var future = false;
 		if(today < slamStart){
 			future = true;
+			//Now we need to work out how many days it is until it starts
+			var time = Math.floor((slamStart - today) / (1000 * 60 * 60 * 24));
+			$('#result').html($(this).val() + " will start in " + time + " days");
+			if(time < 7){
+				$('#result').append(". Are you excited yet?");
+			}
 		}
 		if(today > slamEnd){
 			past = true;
+			$('#result').html($(this).val() + " has already happened this year :(");
 		}
 		if(today > slamStart && today < slamEnd){
 			present = true;
+			$('#result').html($(this).val() + " is currently being played!");
 		}
-		//console.log(past, present, future);
 	});	
 }
