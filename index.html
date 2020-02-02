@@ -10,7 +10,7 @@
 <body>
 	<header>How long until the next Grand Slam this year?</header>
 	<main>
-		<select name="grand-slams">
+		<select name="grand-slams" id="slams">
 			<option disabled selected value>Select a Grand Slam</option>
 			<option value="Australian Open">Australian Open</option>
 			<option value="Roland Garros">Roland Garros</option>
@@ -21,6 +21,14 @@
 			Some text here
 		</div>
 	</main>
+
+    <script src="jquery-3.4.1.min.js"></script>
 	<script type="text/javascript" src="script.js"></script>
+    <script>
+	    $( document ).ready(function() {
+	        grandslams();
+	    });
+		</script>
+
 </body>
 </html>
