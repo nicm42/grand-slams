@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Grand Slams 2020</title>
+    <meta charset="utf-8" />
+	<link rel="stylesheet" href="styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+</head>
+<body>
+	<header>
+		<img id="ball" src="ball.svg" alt="tennis ball">
+		How long until the next Grand Slam this year?</header>
+	<main>
+		<select name="grand-slams" id="slams">
+			<option disabled selected value>Select a Grand Slam</option>
+			<option value="Australian Open">Australian Open</option>
+			<option value="Roland Garros">Roland Garros</option>
+			<option value="Wimbledon">Wimbledon</option>
+			<option value="US Open">US Open</option>
+		</select>
+		<div id="result">
+			&nbsp;<br><br>
+		</div>
+	</main>
+
+    <script src="jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+    <script>
+	    $( document ).ready(function() {
+	        grandslams();
+	    });
+		</script>
+
+</body>
+</html>

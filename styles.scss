@@ -1,0 +1,27 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	color: black;
+	text-align: center;
+	background-color: #fff9c4;
+}
+
+header{
+	font-size: 2rem;
+	margin-top: 3rem;
+	display: flex;
+	flex-direction: column;
+}
+
+#ball{
+	max-height: 10vh;
+}
+
+#slams{
+	margin: 2rem 0;
+	padding: 5px;
+	box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
+}
+
+#result{
+	font-size: 1.2rem;
+}
