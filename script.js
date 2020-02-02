@@ -1,10 +1,10 @@
 function grandslams(){
 	var slams = ['Australian Open','Roland Garros','Wimbledon','US Open'];
 	//Set up array of Grand Slam dates - one for the start date and one for the end date
-	//var startDates = ['2001','2405','2906','3108'];
-	//var endDates = ['0202','0706','1207','1309'];
-	var startDates = ['2001','0602','2906','0101'];  //temporarily pretending US Open has finished
-	var endDates = ['0202','0706','1207','1301'];   //to test it (and RG is soon)
+	var startDates = ['2001','2405','2906','3108'];
+	var endDates = ['0202','0706','1207','1309'];
+	//var startDates = ['2001','0602','2906','0101'];  //temporarily pretending US Open has finished
+	//var endDates = ['0202','0706','1207','1301'];   //to test it (and RG is soon)
 	//Get today's date
 	var today = new Date();
 	//var todayDay = today.getDate();
