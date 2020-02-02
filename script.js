@@ -35,14 +35,17 @@ function grandslams(){
 			if(time < 7){
 				$('#result').append(". Are you excited yet?");
 			}
+			$('#result').css('color','#1b5e20');  //Make it green
 		}
 		if(today > slamEnd){
 			past = true;
 			$('#result').html($(this).val() + " has already happened this year :(");
+			$('#result').css('color','#922b21');  //Make it red
 		}
 		if(today > slamStart && today < slamEnd){
 			present = true;
 			$('#result').html($(this).val() + " is currently being played!");
+			$('#result').css('color','#1b4f72');  //Make it blue
 		}
 	});	
 }
