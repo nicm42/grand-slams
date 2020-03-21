@@ -1,2 +1,2 @@
-body{font-family:Raleway,sans-serif;color:#000;text-align:center;background-color:#fff9c4}header{font-size:2rem;margin-top:3rem;display:flex;flex-direction:column}#ball{max-height:10vh}#slams{margin:2rem 0;padding:5px;box-shadow:0 1px 0 1px rgba(0,0,0,.04);font-size:16px}#result{font-size:1.2rem}
+body{font-family:Raleway,sans-serif;color:#000;text-align:center;background-color:#fff9c4}header{font-size:2rem;margin-top:3rem;display:flex;flex-direction:column}#ball{height:10vh;width:100%}#slams{margin:2rem 0;padding:5px;box-shadow:0 1px 0 1px rgba(0,0,0,.04);font-size:16px}#result{font-size:1.2rem}
 /*# sourceMappingURL=styles.css.map */
