@@ -1,7 +1,1 @@
-{
-"version": 3,
-"mappings": "AAAA,IAAI,CACH,WAAW,CAAE,qBAAqB,CAClC,KAAK,CAAE,KAAK,CACZ,UAAU,CAAE,MAAM,CAClB,gBAAgB,CAAE,OAAO,CAG1B,MAAM,CACL,SAAS,CAAE,IAAI,CACf,UAAU,CAAE,IAAI,CAChB,OAAO,CAAE,IAAI,CACb,cAAc,CAAE,MAAM,CAGvB,KAAK,CACJ,UAAU,CAAE,IAAI,CAGjB,MAAM,CACL,MAAM,CAAE,MAAM,CACd,OAAO,CAAE,GAAG,CACZ,UAAU,CAAE,4BAA2B,CACvC,SAAS,CAAE,IAAI,CAGhB,OAAO,CACN,SAAS,CAAE,MAAM",
-"sources": ["styles.scss"],
-"names": [],
-"file": "styles.css"
-}
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,KACC,8BAAkC,CAClC,UAAY,CACZ,iBAAkB,CAClB,wBAAyB,CAG1B,OACC,cAAe,CACf,eAAgB,CAChB,YAAa,CACb,qBAAsB,CAGvB,MACC,WAAY,CACZ,UAAW,CAGZ,OACC,aAAc,CACd,WAAY,CACZ,sCAAuC,CACvC,cAAe,CAGhB,QACC,gBAAiB","file":"styles.css","sourcesContent":["body{\r\n\tfont-family: 'Raleway', sans-serif;\r\n\tcolor: black;\r\n\ttext-align: center;\r\n\tbackground-color: #fff9c4;\r\n}\r\n\r\nheader{\r\n\tfont-size: 2rem;\r\n\tmargin-top: 3rem;\r\n\tdisplay: flex;\r\n\tflex-direction: column;\r\n}\r\n\r\n#ball{\r\n\theight: 10vh;\r\n\twidth: 100%;\r\n}\r\n\r\n#slams{\r\n\tmargin: 2rem 0;\r\n\tpadding: 5px;\r\n\tbox-shadow: 0 1px 0 1px rgba(0,0,0,.04);\r\n\tfont-size: 16px;\r\n}\r\n\r\n#result{\r\n\tfont-size: 1.2rem;\r\n}"]}
